@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1 style="text-align: center;">Marketing Operations Team Summary</h1>
+    <h1 style="text-align: center;">Podcast hosted : KRA owner : Susmita</h1>
+    <h1 style="text-align: center;">Rest of the task KRA owner : Chinmoy</h1>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #29294C;
+            --accent-color: #FF6D05;
+            --background-color: #EEEFF6;
+            --grouping-color: #CDCDE4;
+            --white: #FFFFFF;
+        }
+        
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Lato', sans-serif;
+            background-color: var(--background-color);
+            color: var(--primary-color);
+        }
+        
+        .slide {
+            width: 1280px;
+            min-height: 720px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            padding: 40px 70px;
+            box-sizing: border-box;
+        }
+        
+        .title {
+            font-size: 46px;
+            font-weight: 400;
+            margin-bottom: 40px;
+            color: var(--primary-color);
+        }
+        
+        .content {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+        
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .metric-card {
+            background-color: var(--white);
+            border-radius: 16px;
+            padding: 24px;
+            box-shadow: 0 4px 12px rgba(41, 41, 76, 0.08);
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .metric-title {
+            font-size: 24px;
+            font-weight: 400;
+            margin-bottom: 20px;
+            color: var(--primary-color);
+        }
+        
+        .region-data {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 16px;
+        }
+        
+        .region {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex: 1;
+        }
+        
+        .region-name {
+            font-size: 18px;
+            margin-bottom: 8px;
+            color: var(--primary-color);
+        }
+        
+        .region-value {
+            font-size: 36px;
+            font-weight: 700;
+            color: var(--accent-color);
+        }
+        
+        .region-target {
+            font-size: 12px;
+            color: #0b0501;
+            margin-top: 4px;
+            text-align: center;
+        }
+        
+        .divider {
+            height: 1px;
+            background-color: var(--grouping-color);
+            margin: 8px 0;
+        }
+        
+        .link-section {
+            margin-top: auto;
+            padding-top: 16px;
+            border-top: 1px solid var(--grouping-color);
+        }
+        
+        .link-title {
+            font-size: 16px;
+            font-weight: 400;
+            color: var(--primary-color);
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .link-title i {
+            font-size: 18px;
+            margin-right: 6px;
+            color: var(--accent-color);
+        }
+        
+        .link {
+            font-size: 14px;
+            color: var(--primary-color);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            margin-bottom: 6px;
+            transition: color 0.2s;
+        }
+        
+        .link:hover {
+            color: var(--accent-color);
+        }
+        
+        .link i {
+            font-size: 14px;
+            margin-right: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide">
+        <!-- <h1 class="title">Marketing Operations Team Summary</h1> -->
+        
+        <div class="content">
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <h2 class="metric-title" style="margin-bottom: 8px;">Podcast Hosted</h2>
+                    <h3 class="metric-title" style="margin-top: 0; font-size: 18px; font-weight: 400;">Target 50</h3>
+                    <div class="region-data">
+                        <div class="region">
+                            <div class="region-name">India</div>
+                            <div class="region-value">7</div>
+                            <div class="region-target">Target = 25<br>28% completion</div>
+                        </div>
+                        <div class="region">
+                            <div class="region-name">UAE</div>
+                            <div class="region-value">4</div>
+                            <div class="region-target">Target = 15<br>26.67% completion</div>
+                        </div>
+                        <div class="region">
+                            <div class="region-name">USA</div>
+                            <div class="region-value">2</div>
+                            <div class="region-target">Target = 10<br>20% completion</div>
+                        </div>
+                    </div>
+                    <div class="link-section">
+                        <div class="link-title">
+                            <i class="material-icons">link</i> Quick Links
+                        </div>
+                        <a href="#" class="link"><i class="material-icons">description</i> View Details</a>
+                        <a href="#" class="link"><i class="material-icons">assessment</i> Performance Report</a>
+                    </div>
+                </div>
+                
+                <div class="metric-card">
+                    <h2 class="metric-title" style="margin-bottom: 8px;">Podcast Confirmed</h2>
+                    <h3 class="metric-title" style="margin-top: 0; font-size: 18px; font-weight: 400;">Target 60</h3>
+                    <div class="region-data">
+                        <div class="region">
+                            <div class="region-name">India</div>
+                            <div class="region-value">7</div>
+                            <div class="region-target">Target = 25<br>28% completion</div>
+                        </div>
+                        <div class="region">
+                            <div class="region-name">UAE</div>
+                            <div class="region-value">5</div>
+                            <div class="region-target">Target = 15<br>33% completion</div>
+                        </div>
+                        <div class="region">
+                            <div class="region-name">USA</div>
+                            <div class="region-value">11</div>
+                            <div class="region-target">Target = 20<br>55% completion</div>
+                        </div>
+                    </div>
+                    <div class="link-section">
+                        <div class="link-title">
+                            <i class="material-icons">description</i> 4 in pipeline for UAE & 1 for NA
+                        </div>
+                        <a href="#" class="link"><i class="material-icons">description</i> View Details</a>
+                        <a href="#" class="link"><i class="material-icons">assessment</i> Performance Report</a>
+                    </div>
+                </div>
+                
+                <div class="metric-card">
+                    <h2 class="metric-title" style="margin-bottom: 8px;">HR Bytes Pipeline</h2>
+                    <h3 class="metric-title" style="margin-top: 0; font-size: 18px; font-weight: 400;">Target 36</h3>
+                    <div class="region-data">
+                        <div class="region">
+                            <div class="region-name">India</div>
+                            <div class="region-value">3</div>
+                            <div class="region-target">Target = 12<br>25% completion</div>
+                        </div>
+                        <div class="region">
+                            <div class="region-name">UAE</div>
+                            <div class="region-value">3</div>
+                            <div class="region-target">Target = 12<br>25% completion</div>
+                        </div>
+                        <div class="region">
+                            <div class="region-name">USA</div>
+                            <div class="region-value">0</div>
+                            <div class="region-target">Target = 12<br>0% completion</div>
+                        </div>
+                    </div>
+                    <div class="link-section">
+                        <div class="link-title">
+                            <i class="material-icons">description</i> 1 in pipeline each for India & UAE & NA
+                        </div>
+                        <a href="#" class="link"><i class="material-icons">description</i> View Details</a>
+                        <a href="#" class="link"><i class="material-icons">assessment</i> Performance Report</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <h2 class="metric-title" style="margin-bottom: 8px;">Webinar Hosted</h2>
+                    <h3 class="metric-title" style="margin-top: 0; font-size: 18px; font-weight: 400;">Target 10</h3>
+                    <div class="region-data">
+                        <div class="region">
+                            <div class="region-name">Partha</div>
+                            <div class="region-value">1</div>
+                            <div class="region-target">Target = 2<br>50% completion</div>
+                        </div>
+                        <div class="region">
+                            <div class="region-name">John</div>
+                            <div class="region-value">2</div>
+                            <div class="region-target">Target = 6<br>33% completion</div>
+                        </div>
+                        <div class="region">
+                            <div class="region-name">Pallav</div>
+                            <div class="region-value">0</div>
+                            <div class="region-target">Target<br>0% completion</div>
+                        </div>
+                    </div>
+                    <div class="link-section">
+                        <div class="link-title">
+                            <i class="material-icons">link</i> Quick Links
+                        </div>
+                        <a href="#" class="link"><i class="material-icons">description</i> View Details</a>
+                        <a href="#" class="link"><i class="material-icons">assessment</i> Performance Report</a>
+                    </div>
+                </div>
+                
+                <!-- <div class="metric-card">
+                    <h2 class="metric-title" style="margin-bottom: 8px;">Webinar in Pipeline</h2>
+                    <h3 class="metric-title" style="margin-top: 0; font-size: 18px; font-weight: 400;">Target 12</h3>
+                    
+                <div class="region-data">
+                        <div class="region">
+                            <div class="region-name">Partha</div>
+                            <div class="region-value">0</div>
+                            <div class="region-target">Target<br>20% completion</div>
+                        </div>
+                        <div class="region">
+                            <div class="region-name">John</div>
+                            <div class="region-value">2</div>
+                            <div class="region-target">Target<br>20% completion</div>
+                        </div>
+                        <div class="region">
+                            <div class="region-name">Pallav</div>
+                            <div class="region-value">0</div>
+                            <div class="region-target">Target<br>20% completion</div>
+                        </div>
+                    </div>
+                    <div class="link-section">
+                        <div class="link-title">
+                            <i class="material-icons">link</i> Quick Links
+                        </div>
+                        <a href="#" class="link"><i class="material-icons">description</i> View Details</a>
+                        <a href="#" class="link"><i class="material-icons">assessment</i> Performance Report</a>
+                    </div>
+                </div> -->
+                
+                <div class="metric-card">
+                    <h2 class="metric-title" style="margin-bottom: 8px;">Newsletters</h2>
+                    <h3 class="metric-title" style="margin-top: 0; font-size: 18px; font-weight: 400;">Target 12</h3>
+                    <div class="region-data">
+                        <div class="region">
+                            <div class="region-name">India</div>
+                            <div class="region-value">2</div>
+                            <div class="region-target">Target = 4<br>50% completion</div>
+                        </div>
+                        <div class="region">
+                            <div class="region-name">UAE</div>
+                            <div class="region-value">2</div>
+                            <div class="region-target">Target = 4<br>50% completion</div>
+                        </div>
+                        <div class="region">
+                            <div class="region-name">USA</div>
+                            <div class="region-value">0</div>
+                            <div class="region-target">Target = 4<br>0% completion</div>
+                        </div>
+                    </div>
+                    <div class="link-section">
+                        <div class="link-title">
+                            <i class="material-icons">link</i> Quick Links
+                        </div>
+                        <a href="#" class="link"><i class="material-icons">description</i> View Details</a>
+                        <a href="#" class="link"><i class="material-icons">assessment</i> Performance Report</a>
+                    </div>
+                </div>
+                <div class="metric-card">
+                    <h2 class="metric-title" style="margin-bottom: 8px;">AIRe Surveys</h2>
+                    <h3 class="metric-title" style="margin-top: 0; font-size: 18px; font-weight: 400;">Target 30</h3>
+                    <div class="region-data">
+                        <div class="region">
+                            <div class="region-name">India</div>
+                            <div class="region-value">15</div>
+                            <div class="region-target">Target = 15<br>100% completion</div>
+                        </div>
+                        <div class="region">
+                            <div class="region-name">UAE</div>
+                            <div class="region-value">22</div>
+                            <div class="region-target">Target = 15<br>146% completion</div>
+                        </div>
+                        <div class="region">
+                            <div class="region-name">USA</div>
+                            <div class="region-value">1</div>
+                            <div class="region-target"><br></div>
+                        </div>
+                    </div>
+                    <div class="link-section">
+                        <div class="link-title">
+                            <i class="material-icons">link</i> Quick Links
+                        </div>
+                        <a href="#" class="link"><i class="material-icons">description</i> View Details</a>
+                        <a href="#" class="link"><i class="material-icons">assessment</i> Performance Report</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="metrics-grid">
+                <!-- <div class="metric-card">
+                    <h2 class="metric-title" style="margin-bottom: 8px;">AIRe Surveys</h2>
+                    <h3 class="metric-title" style="margin-top: 0; font-size: 18px; font-weight: 400;">Target 30</h3>
+                    <div class="region-data">
+                        <div class="region">
+                            <div class="region-name">India</div>
+                            <div class="region-value">15</div>
+                            <div class="region-target">Target = 15<br>100% completion</div>
+                        </div>
+                        <div class="region">
+                            <div class="region-name">UAE</div>
+                            <div class="region-value">22</div>
+                            <div class="region-target">Target = 15<br>146% completion</div>
+                        </div>
+                        <div class="region">
+                            <div class="region-name">USA</div>
+                            <div class="region-value">1</div>
+                            <div class="region-target"><br></div>
+                        </div>
+                    </div>
+                    <div class="link-section">
+                        <div class="link-title">
+                            <i class="material-icons">link</i> Quick Links
+                        </div>
+                        <a href="#" class="link"><i class="material-icons">description</i> View Details</a>
+                        <a href="#" class="link"><i class="material-icons">assessment</i> Performance Report</a>
+                    </div>
+                </div> -->
+                
+                <div class="metric-card">
+                    <h2 class="metric-title" style="margin-bottom: 8px;">Whatsapp carousel from Dossier</h2>
+                    <h3 class="metric-title" style="margin-top: 0; font-size: 18px; font-weight: 400;">Target 12</h3>
+                    <div class="region-data" style="justify-content: center;">
+                        <!-- <div class="region">
+                            <div class="region-name">India</div>
+                            <div class="region-value">1</div>
+                            <div class="region-target">Target<br>20% completion</div>
+                        </div> -->
+                        <!-- <div class="region">
+                            <div class="region-name">UAE</div>
+                            <div class="region-value">1</div>
+                            <div class="region-target">Target<br>20% completion</div>
+                        </div> -->
+                        <div class="region">
+                            <div class="region-name"></div>
+                            <div class="region-value">12</div>
+                            <div class="region-target">Target = 12<br>100% completion</div>
+                        </div>
+                    </div>
+                    <div class="link-section">
+                        <div class="link-title">
+                            <i class="material-icons">link</i> Quick Links
+                        </div>
+                        <a href="#" class="link"><i class="material-icons">description</i> View Details</a>
+                        <a href="#" class="link"><i class="material-icons">assessment</i> Performance Report</a>
+                    </div>
+                </div>
+                <div class="metric-card">
+                    <h2 class="metric-title" style="margin-bottom: 8px;">Leaders Speak for annual Industry Report</h2>
+                    <h3 class="metric-title" style="margin-top: 0; font-size: 18px; font-weight: 400;">Scrapped off though present in Keka</h3>
+                    <div class="region-data" style="justify-content: center;">
+                        <!-- <div class="region">
+                            <div class="region-name">India</div>
+                            <div class="region-value">1</div>
+                            <div class="region-target">Target<br>20% completion</div>
+                        </div> -->
+                        <!-- <div class="region">
+                            <div class="region-name">UAE</div>
+                            <div class="region-value">1</div>
+                            <div class="region-target">Target<br>20% completion</div>
+                        </div> -->
+                        <div class="region">
+                            <div class="region-name"></div>
+                            <div class="region-value">-</div>
+                            <div class="region-target"><br></div>
+                        </div>
+                    </div>
+                    <div class="link-section">
+                        <div class="link-title">
+                            <i class="material-icons">link</i> Quick Links
+                        </div>
+                        <a href="#" class="link"><i class="material-icons">description</i> View Details</a>
+                        <a href="#" class="link"><i class="material-icons">assessment</i> Performance Report</a>
+                    </div>
+                </div>
+            </div>
+             <div style="margin-top: 40px; background-color: var(--white); border-radius: 16px; padding: 32px; box-shadow: 0 4px 12px rgba(41, 41, 76, 0.08);">
+                <h2 style="font-size: 32px; font-weight: 400; color: var(--primary-color); margin-bottom: 24px; border-bottom: 2px solid var(--accent-color); padding-bottom: 12px;">
+                    Team Overall Performance Assessment
+
+                </h2>
+                <div style="text-align: center; padding: 24px; background: linear-gradient(135deg, #29294C 0%, #FF6D05 100%); border-radius: 12px;">
+                    <p style="color: white; font-size: 18px; margin: 0 0 8px 0; font-weight: 300;">Overall Team Completion Rate</p>
+                    <p style="color: white; font-size: 56px; font-weight: 700; margin: 0; line-height: 1;">~42%</p>
+                    <!-- <p style="color: white; font-size: 16px; margin: 12px 0 0 0; opacity: 0.95;">Requires urgent attention to meet annual targets</p> -->
+                </div>
+                
+                <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 30px; margin-bottom: 30px;">
+                    <div>
+                        <h3 style="font-size: 20px; font-weight: 700; color: #10B981; margin-bottom: 16px; display: flex; align-items: center;">
+                            <i class="material-icons" style="margin-right: 8px;">check_circle</i>
+                            Strong Performers (Meeting/Exceeding Targets)
+                        </h3>
+                        <ul style="list-style: none; padding: 0; margin: 0;">
+                            <li style="margin-bottom: 12px; padding: 12px; background-color: #F0FDF4; border-radius: 8px;">
+                                <strong>WhatsApp Carousel:</strong> 100% completion (12/12)
+                            </li>
+                            <li style="margin-bottom: 12px; padding: 12px; background-color: #F0FDF4; border-radius: 8px;">
+                                <strong>AIRe Surveys:</strong> 127% overall (38/30) - India & UAE excelling
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h3 style="font-size: 20px; font-weight: 700; color: #F59E0B; margin-bottom: 16px; display: flex; align-items: center;">
+                            <i class="material-icons" style="margin-right: 8px;">warning</i>
+                            Moderate Performers (25-55% completion)
+                        </h3>
+                        <ul style="list-style: none; padding: 0; margin: 0;">
+                            <li style="margin-bottom: 8px; padding: 10px; background-color: #FFFBEB; border-radius: 8px; font-size: 14px;">
+                                <strong>Podcast Hosted:</strong> 26% overall (13/50)
+                            </li>
+                            <li style="margin-bottom: 8px; padding: 10px; background-color: #FFFBEB; border-radius: 8px; font-size: 14px;">
+                                <strong>Podcast Confirmed:</strong> 38% overall (23/60)
+                            </li>
+                            <li style="margin-bottom: 8px; padding: 10px; background-color: #FFFBEB; border-radius: 8px; font-size: 14px;">
+                                <strong>Newsletters:</strong> 33% overall (4/12)
+                            </li>
+                            <li style="margin-bottom: 8px; padding: 10px; background-color: #FFFBEB; border-radius: 8px; font-size: 14px;">
+                                <strong>Webinar Hosted:</strong> 30% overall (3/10)
+                            </li>
+                            <li style="margin-bottom: 8px; padding: 10px; background-color: #FFFBEB; border-radius: 8px; font-size: 14px;">
+                                <strong>HR Bytes Pipeline:</strong> 17% overall (6/36)
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- <div style="background-color: #FEF2F2; border-left: 4px solid #EF4444; padding: 20px; border-radius: 8px; margin-bottom: 30px;">
+                    <h3 style="font-size: 20px; font-weight: 700; color: #DC2626; margin-bottom: 12px; display: flex; align-items: center;">
+                        <i class="material-icons" style="margin-right: 8px;">error</i>
+                        Critical Underperformers
+                    </h3>
+                    <p style="margin: 0; font-size: 16px; color: var(--primary-color);">
+                        <strong>Podcast Hosted:</strong> 17% overall (6/12) - All regions below target
+                    </p>
+                </div> -->
+                
+                <div style="background-color: #EFF6FF; border-left: 4px solid #3B82F6; padding: 20px; border-radius: 8px; margin-bottom: 30px;">
+                    <h3 style="font-size: 20px; font-weight: 700; color: #2563EB; margin-bottom: 16px; display: flex; align-items: center;">
+                        <i class="material-icons" style="margin-right: 8px;">lightbulb</i>
+                        New Strategies implemented
+                    </h3>
+                    <ul style="margin: 0; padding-left: 20px; color: var(--primary-color); line-height: 1.8;">
+                        <li><strong>We switched to video podcast</strong> - The new format looks very engaging and are better than just the audios being shown</li>
+                        <li><strong>Switching to StreamYard from Zoom</strong> - this has allowed the podcast to go beyond our 45 mins time limit</li>
+                        <li><strong>Hyperpersonalised email using Perplexity</strong> - We have created spaces in Perplexity that allows us to create hyperpersonalise email for a particular person by just getting their name, company and corporate email</li>
+                    </ul>
+                </div>
+                
+                <div style="background-color: #EFF6FF; border-left: 4px solid #3B82F6; padding: 20px; border-radius: 8px; margin-bottom: 30px;">
+                    <h3 style="font-size: 20px; font-weight: 700; color: #2563EB; margin-bottom: 16px; display: flex; align-items: center;">
+                        <i class="material-icons" style="margin-right: 8px;">error_outline</i>
+                        Strategies that did not work out
+                    </h3>
+                    <ul style="margin: 0; padding-left: 20px; color: var(--primary-color); line-height: 1.8;">
+                        <li>The list that was given to us by ABM team for NA and UAE did not work out. Out of all the contacts given to us only 5 from UAE we got for podcast.</li>
+                        <!-- <li><strong>We switched to video podcast</strong> - The new format looks very engaging and are better than just the audios being shown</li>
+                        <li><strong>Switching to StreamYard from Zoom</strong> - this has allowed the podcast to go beyond our 45 mins time limit</li>
+                        <li><strong>Hyperpersonalised email using Perplexity</strong> - We have created spaces in Perplexity that allows us to create hyperpersonalise email for a particular person by just getting their name, company and corporate email</li> -->
+                    </ul>
+                </div>
+                
+        </div>
+    </div>
+</body>
+</html>
